@@ -4,10 +4,11 @@ import Ripple from "./Ripple";
 import styled from "styled-components";
 
 const Button = styled.button`
+  display: block;
   overflow: hidden;
   position: relative;
   cursor: pointer;
-
+  margin: 0 auto;
   background: #3f51b5;
   padding: 5px 30px;
   color: #fff;
